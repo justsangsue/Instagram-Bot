@@ -1,0 +1,420 @@
+1599061820254	geckodriver	INFO	Listening on 127.0.0.1:57233
+1599061820569	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileSVPa92"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599061833915	Marionette	INFO	Listening on port 57249
+1599061907685	geckodriver	INFO	Listening on 127.0.0.1:57620
+1599061908709	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileJdCH65"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599061914736	Marionette	INFO	Listening on port 57639
+1599061914808	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599061919387	Marionette	INFO	Stopped listening on port 57639
+1599062178235	geckodriver	INFO	Listening on 127.0.0.1:58918
+1599062179253	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilemGWNBL"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599062185698	Marionette	INFO	Listening on port 58933
+1599062185739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599062310921	geckodriver	INFO	Listening on 127.0.0.1:59586
+1599062311936	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileqgQYKX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599062319845	Marionette	INFO	Listening on port 59598
+1599062319911	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 11:58:46.557 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+1599062369156	Marionette	INFO	Stopped listening on port 57249
+1599062371809	Marionette	INFO	Stopped listening on port 59598
+2020-09-02 12:00:26.033 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 12:00:28.200 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 12:00:28.345 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+2020-09-02 12:00:35.492 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 12:01:04.848 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 12:01:04.849 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+1599062494227	geckodriver	INFO	Listening on 127.0.0.1:60423
+1599062495245	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileGhhmPS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+2020-09-02 12:01:42.149 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+1599062503391	Marionette	INFO	Listening on port 60437
+1599062503465	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 12:03:01.567 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 12:03:02.989 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+2020-09-02 12:03:04.464 firefox-bin[59191:1715292] NextSurface returning false because of invalid mSize (0, 0).
+1599062612216	Marionette	INFO	Stopped listening on port 60437
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1599062795967	geckodriver	INFO	Listening on 127.0.0.1:61753
+1599062796981	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofile0KOSDc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599062805926	Marionette	INFO	Listening on port 61767
+1599062805983	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 12:07:11.383 firefox-bin[60052:1734283] NextSurface returning false because of invalid mSize (0, 0).
+1599063026393	geckodriver	INFO	Listening on 127.0.0.1:62768
+1599063027411	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileLbuQwJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599063037271	Marionette	INFO	Listening on port 62779
+1599063037334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599063046060	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+2020-09-02 12:10:48.795 firefox-bin[60357:1741056] NextSurface returning false because of invalid mSize (0, 0).
+1599063061561	geckodriver	INFO	Listening on 127.0.0.1:63014
+1599063062586	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilef6rmZ6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599063069442	Marionette	INFO	Listening on port 63033
+1599063069550	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 12:11:35.292 firefox-bin[60404:1742384] NextSurface returning false because of invalid mSize (0, 0).
+1599063570790	geckodriver	INFO	Listening on 127.0.0.1:65288
+1599063571803	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofile1Kctyw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599063579622	Marionette	INFO	Listening on port 65299
+1599063579670	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 12:20:03.739 firefox-bin[61096:1756433] NextSurface returning false because of invalid mSize (0, 0).
+1599063634238	geckodriver	INFO	Listening on 127.0.0.1:49267
+1599063635273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilejaNxST"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599063641847	Marionette	INFO	Listening on port 49283
+1599063641921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599064023674	geckodriver	INFO	Listening on 127.0.0.1:51060
+1599064024688	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofile9OLypa"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599064032202	Marionette	INFO	Listening on port 51071
+1599064032250	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599064057033	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599064107194	geckodriver	INFO	Listening on 127.0.0.1:51464
+1599064108236	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilesaSDWs"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599064116712	Marionette	INFO	Listening on port 51476
+1599064116782	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599064190169	Marionette	INFO	Stopped listening on port 62779
+1599064192429	Marionette	INFO	Stopped listening on port 63033
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1599064194617	Marionette	INFO	Stopped listening on port 65299
+1599064196659	Marionette	INFO	Stopped listening on port 49283
+1599064198482	Marionette	INFO	Stopped listening on port 51071
+1599064200840	Marionette	INFO	Stopped listening on port 51476
+1599066641371	geckodriver	INFO	Listening on 127.0.0.1:59224
+1599066642393	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileduh5Ts"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599066648408	Marionette	INFO	Listening on port 59235
+1599066648471	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 13:11:06.268 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:11:41.073 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:11:42.388 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+2020-09-02 13:11:42.923 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:11:43.168 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:11:45.001 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:11:48.506 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:21:12.370 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:21:12.372 firefox-bin[64446:1832165] NextSurface returning false because of invalid mSize (0, 0).
+1599067684081	geckodriver	INFO	Listening on 127.0.0.1:59485
+1599067685102	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileMwf01w"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599067690256	Marionette	INFO	Listening on port 59496
+1599067690273	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 13:32:38.550 firefox-bin[64530:1838964] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:32:43.095 firefox-bin[64530:1838964] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:32:44.293 firefox-bin[64530:1838964] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:32:44.528 firefox-bin[64530:1838964] NextSurface returning false because of invalid mSize (0, 0).
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+2020-09-02 13:32:45.263 firefox-bin[64530:1838964] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:33:05.990 firefox-bin[64530:1838964] NextSurface returning false because of invalid mSize (0, 0).
+1599068031589	geckodriver	INFO	Listening on 127.0.0.1:59636
+1599068032618	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilexlDF8z"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599068038272	Marionette	INFO	Listening on port 59647
+1599068038321	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 13:34:45.779 firefox-bin[64569:1841751] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:34:50.912 firefox-bin[64569:1841751] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:34:52.073 firefox-bin[64569:1841751] NextSurface returning false because of invalid mSize (0, 0).
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+2020-09-02 13:34:53.252 firefox-bin[64569:1841751] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:34:54.289 firefox-bin[64569:1841751] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:35:02.507 firefox-bin[64569:1841751] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:36:22.422 firefox-bin[64569:1841751] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:36:22.423 firefox-bin[64569:1841751] NextSurface returning false because of invalid mSize (0, 0).
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:406:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2271))
+1599068188955	geckodriver	INFO	Listening on 127.0.0.1:59783
+1599068189982	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilerYangV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599068195556	Marionette	INFO	Listening on port 59794
+1599068195657	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 13:36:54.287 firefox-bin[64607:1843603] NextSurface returning false because of invalid mSize (0, 0).
+1599068264742	geckodriver	INFO	Listening on 127.0.0.1:59923
+1599068265758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilejzsh9F"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599068271589	Marionette	INFO	Listening on port 59934
+1599068271642	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 13:39:29.140 firefox-bin[64627:1844806] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:42:18.402 firefox-bin[64627:1844806] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:42:19.679 firefox-bin[64627:1844806] NextSurface returning false because of invalid mSize (0, 0).
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+2020-09-02 13:42:20.184 firefox-bin[64627:1844806] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:42:20.184 firefox-bin[64627:1844806] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:42:20.333 firefox-bin[64627:1844806] NextSurface returning false because of invalid mSize (0, 0).
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+2020-09-02 13:42:21.494 firefox-bin[64627:1844806] NextSurface returning false because of invalid mSize (0, 0).
+1599068614446	geckodriver	INFO	Listening on 127.0.0.1:60106
+1599068615466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofile19rKCD"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599068621579	Marionette	INFO	Listening on port 60117
+1599068621665	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 13:44:02.957 firefox-bin[64669:1848243] NextSurface returning false because of invalid mSize (0, 0).
+1599068649922	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599068680208	geckodriver	INFO	Listening on 127.0.0.1:60239
+1599068681224	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileVZkM5m"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599068689643	Marionette	INFO	Listening on port 60254
+1599068689696	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599068709609	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599068710358	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+2020-09-02 13:46:13.202 firefox-bin[64681:1849328] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:47:20.283 firefox-bin[64681:1849328] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:47:22.030 firefox-bin[64681:1849328] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:47:22.180 firefox-bin[64681:1849328] NextSurface returning false because of invalid mSize (0, 0).
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 560"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:560:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 560, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 560: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+2020-09-02 13:47:23.377 firefox-bin[64681:1849328] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 13:47:37.413 firefox-bin[64681:1849328] NextSurface returning false because of invalid mSize (0, 0).
+1599069085577	geckodriver	INFO	Listening on 127.0.0.1:60502
+1599069086595	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileOmBLEn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599069093411	Marionette	INFO	Listening on port 60513
+1599069093464	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599069267391	geckodriver	INFO	Listening on 127.0.0.1:60664
+1599069268408	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileyBe1w6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599069278903	Marionette	INFO	Listening on port 60675
+1599069279013	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599069300762	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599069301501	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599069399162	geckodriver	INFO	Listening on 127.0.0.1:60839
+1599069400171	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilehXYIID"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599069411796	Marionette	INFO	Listening on port 60850
+1599069411911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599069445210	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599069445950	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599069453661	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599069593773	geckodriver	INFO	Listening on 127.0.0.1:61028
+1599069594783	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilesK5lE8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599069607567	Marionette	INFO	Listening on port 61039
+1599069607608	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 14:02:17.476 firefox-bin[64827:1862258] NextSurface returning false because of invalid mSize (0, 0).
+1599069783318	geckodriver	INFO	Listening on 127.0.0.1:61251
+1599069784343	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileNHpaMX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599069796987	Marionette	INFO	Listening on port 61264
+1599069797077	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 14:03:26.054 firefox-bin[64860:1865310] NextSurface returning false because of invalid mSize (0, 0).
+1599069820528	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599069853999	geckodriver	INFO	Listening on 127.0.0.1:61447
+1599069855020	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileXMorgW"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599069869610	Marionette	INFO	Listening on port 61458
+1599069869644	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599069947380	geckodriver	INFO	Listening on 127.0.0.1:61644
+1599069949094	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofiled7fxx1"
+JavaScript error: chrome://browser/content/browser-places.js, line 1754: TypeError: PageActions.actionForID(...) is undefined
+1599069959613	Marionette	INFO	Stopped listening on port 59235
+MenuSelect event trace: received mouse up (kModeSelect)
+MenuSelect event trace: sticky menus acquired (kModeSelect)
+MenuSelect event trace: mousedown - switched from kSticky to kClassic (kSticky)
+MenuSelect event trace: mouse up (kClassic)
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1599070403618	geckodriver	INFO	Listening on 127.0.0.1:61809
+1599070404630	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileGsSzsZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599070409670	Marionette	INFO	Listening on port 61822
+1599070409726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599070428873	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599070434414	geckodriver	INFO	Listening on 127.0.0.1:61924
+1599070435431	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileCIvlFd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599070440453	Marionette	INFO	Listening on port 61935
+1599070440501	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599070494892	Marionette	INFO	Stopped listening on port 61935
+1599070498166	geckodriver	INFO	Listening on 127.0.0.1:62043
+1599070499184	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofile9zDADU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599070504661	Marionette	INFO	Listening on port 62054
+1599070504742	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599070530176	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599070530916	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599070538166	Marionette	INFO	Stopped listening on port 62054
+1599070602130	geckodriver	INFO	Listening on 127.0.0.1:62174
+1599070603153	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileJ96grt"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599070608435	Marionette	INFO	Listening on port 62186
+1599070608460	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599070642351	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1599070642559	Marionette	INFO	Stopped listening on port 62186
+1599070661384	geckodriver	INFO	Listening on 127.0.0.1:62290
+1599070662403	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofilebFfRRh"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599070667376	Marionette	INFO	Listening on port 62301
+1599070667469	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 14:18:06.130 firefox-bin[65003:1876566] NextSurface returning false because of invalid mSize (0, 0).
+1599070702038	Marionette	INFO	Stopped listening on port 62301
+2020-09-02 14:23:30.128 firefox-bin[64954:1872463] NextSurface returning false because of invalid mSize (0, 0).
+2020-09-02 14:28:38.748 firefox-bin[64954:1872463] NextSurface returning false because of invalid mSize (0, 0).
+1599071355699	geckodriver	INFO	Listening on 127.0.0.1:62556
+1599071356724	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bc/cwywynmj28qcxzqm08h3rnfm0000gn/T/rust_mozprofileZiI6mJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1599071361857	Marionette	INFO	Listening on port 62567
+1599071361886	Marionette	WARN	TLS certificate errors will be ignored for this session
+2020-09-02 14:29:33.096 firefox-bin[65075:1882012] NextSurface returning false because of invalid mSize (0, 0).
+1599071395220	Marionette	INFO	Stopped listening on port 62567
