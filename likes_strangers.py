@@ -45,24 +45,24 @@ class InstagramBot:
         driver = self.driver
         driver.get("https://www.instagram.com/explore/tags/" + hashtag + "/")
         time.sleep(2)
-       "," gathering photos
+        # gathering photos
         pic_hrefs = []
         for i in range(1, 7):
             try:
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 time.sleep(2)
-               "," get tags
+                # get tags
                 hrefs_in_view = driver.find_elements_by_tag_name('a')
-               "," finding relevant hrefs
+                # finding relevant hrefs
                 hrefs_in_view = [elem.get_attribute('href') for elem in hrefs_in_view
                                  if '.com/p/' in elem.get_attribute('href')]
-               "," building list of unique photos
+                # building list of unique photos
                 [pic_hrefs.append(href) for href in hrefs_in_view if href not in pic_hrefs]
-               "," print("Check: pic href length " + str(len(pic_hrefs)))
+                print("Check: pic href length " + str(len(pic_hrefs)))
             except Exception:
                 continue
 
-       "," Liking photos
+        # Liking photos
         unique_photos = len(pic_hrefs)
         for pic_href in pic_hrefs:
             driver.get(pic_href)
@@ -88,8 +88,7 @@ if __name__ == "__main__":
     ig = InstagramBot(username, password)
     ig.login()
 
-    hashtags = ["artsypic","newyorkartgallery","modernartgallery","londonartgallery","artgalleryofontario","nycartgallery","artgalleryofnsw","parisartgallery","berlinartgallery","contemporaryartgallery","onlineartgallery","fineartgallery","artgallerynyc","artgallery ]
-          'street', 'canon', 'beauty', 'studio', 'pretty', 'vintage', 'fierce']
+    hashtags = ["artsypic","newyorkartgallery","modernartgallery","londonartgallery","artgalleryofontario","nycartgallery","artgalleryofnsw","parisartgallery","berlinartgallery","contemporaryartgallery","onlineartgallery","fineartgallery","artgallerynyc","artgallery"]
 
     while True:
         try:
